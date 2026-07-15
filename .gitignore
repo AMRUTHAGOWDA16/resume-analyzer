@@ -1,0 +1,21 @@
+# Virtual environment
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Database
+database.db
+
+# Uploaded files and generated reports (user data, shouldn't be in Git)
+uploads/*
+!uploads/.gitkeep
+reports/*
+!reports/.gitkeep
+
+# VS Code settings
+.vscode/
+
+# Environment variables (if you add any later)
+.env
